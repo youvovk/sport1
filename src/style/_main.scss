@@ -1,0 +1,52 @@
+.main {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 120px;
+
+    font-family: "Changa", serif;
+    text-align: left;
+
+    color: #120902;
+
+     p:nth-of-type(1) {
+         margin-bottom: 70px;
+     }
+
+     p:nth-of-type(2) {
+         margin-bottom: 24px;
+     }
+
+    a:nth-of-type(1) {
+       margin-top: 65px;
+    }
+
+    &-wrapper {
+        max-width: 435px;
+        height: 390px;
+        display: flex;
+        align-self: center;
+        position: relative;
+
+        margin-left: 100px;
+        margin-bottom: 100px;
+        padding: 0 10px;
+
+        @include breakpoint(580) {
+            margin-left: 0;
+            margin-bottom: 0;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 1100px;
+            height: 640px;
+            background-image: url('../images/back-text.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: -80px;
+            left: -370px;
+        }
+    }
+}

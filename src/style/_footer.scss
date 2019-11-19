@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 15px;
+
+    &-wrapper {
+        width: 915px;        
+        padding: 0 10px 40px;
+
+        @include breakpoint (840) {
+            overflow-x: scroll;
+        }
+
+        @include breakpoint_h(820) {
+            padding: 0 10px 20px;
+        }
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+
+        height: 20px;
+
+        margin-bottom: 13px;
+
+        img:nth-of-type(odd),
+        img:nth-of-type(even) {
+            margin-right: 10px;
+        }
+    }
+
+    &__bottom {
+        width: 78%;
+        height: 20px;
+
+        display: flex;
+        align-self: center;
+
+        margin-left: 40px;
+
+        img:nth-of-type(odd),
+        img:nth-of-type(even) {
+            margin-right: 10px;
+        }
+    }
+}
+
