@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sport1/static/css/main.1db4e849.chunk.css",
+    "main.js": "/sport1/static/js/main.7bc27fc4.chunk.js",
+    "main.js.map": "/sport1/static/js/main.7bc27fc4.chunk.js.map",
+    "runtime-main.js": "/sport1/static/js/runtime-main.3ccc0099.js",
+    "runtime-main.js.map": "/sport1/static/js/runtime-main.3ccc0099.js.map",
+    "static/js/2.a137866a.chunk.js": "/sport1/static/js/2.a137866a.chunk.js",
+    "static/js/2.a137866a.chunk.js.map": "/sport1/static/js/2.a137866a.chunk.js.map",
+    "index.html": "/sport1/index.html",
+    "precache-manifest.b23af0d9d9274dcf2fd611a2e4248cb6.js": "/sport1/precache-manifest.b23af0d9d9274dcf2fd611a2e4248cb6.js",
+    "service-worker.js": "/sport1/service-worker.js",
+    "static/css/main.1db4e849.chunk.css.map": "/sport1/static/css/main.1db4e849.chunk.css.map",
+    "static/media/main.scss": "/sport1/static/media/back-text.80a3a1b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ccc0099.js",
+    "static/js/2.a137866a.chunk.js",
+    "static/css/main.1db4e849.chunk.css",
+    "static/js/main.7bc27fc4.chunk.js"
+  ]
+}
